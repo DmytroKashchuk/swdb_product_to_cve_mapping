@@ -1,0 +1,21 @@
+VendorName,Product,ProductCategory,ProductSeries,cpe_vendor,cpe_product,total_cves,critical,high,medium,low,match_method
+AppNexus,AppNexus,Ad Exchanges,Advertising,appnexus,appnexus,0,0,0,0,0,keyword_vendor_product
+Rubicon Project,Rubicon Project,Ad Exchanges,Advertising,rubicon_project,rubicon_project,0,0,0,0,0,keyword_vendor_product
+Index Exchange,Index Exchange,Ad Exchanges,Advertising,index_exchange,index_exchange,9,0,2,7,0,keyword_vendor_product
+OpenX,OpenX,Ad Exchanges,Advertising,openx,openx,13,1,5,7,0,virtualMatchString
+BidSwitch,BidSwitch,Ad Exchanges,Advertising,bidswitch,bidswitch,0,0,0,0,0,keyword_vendor_product
+Google,Google DoubleClick,Ad Exchanges,Advertising,google,google_doubleclick,1,0,0,0,1,keyword_vendor_product
+AdBrite,AdBrite,Ad Exchanges,Advertising,adbrite,adbrite,0,0,0,0,0,keyword_vendor_product
+Open AdStream,Open AdStream,Ad Exchanges,Advertising,open_adstream,open_adstream,0,0,0,0,0,keyword_vendor_product
+district m,district M,Ad Exchanges,Advertising,district_m,district_m,1,0,0,1,0,keyword_vendor_product
+PulsePoint,PulsePoint,Ad Exchanges,Advertising,pulsepoint,pulsepoint,0,0,0,0,0,keyword_vendor_product
+bRealTime,bRealtime,Ad Exchanges,Advertising,brealtime,brealtime,0,0,0,0,0,keyword_vendor_product
+PLYmedia,ADK2,Ad Exchanges,Advertising,plymedia,adk2,0,0,0,0,0,keyword_product_only
+Zedo,Zedo,Ad Serving,Advertising,zedo,zedo,0,0,0,0,0,keyword_vendor_product
+Flashtalking Inc.,Flashtalking Activate,Ad Serving,Advertising,flashtalking,flashtalking_activate,0,0,0,0,0,keyword_product_only
+Adform,Adform,Ad Serving,Advertising,adform,adform,1,0,1,0,0,keyword_vendor_product
+Sizmek,Sizmek,Ad Serving,Advertising,sizmek,sizmek,0,0,0,0,0,keyword_vendor_product
+Samsung,AdGear,Ad Serving,Advertising,samsung,adgear,0,0,0,0,0,keyword_product_only
+Eyereturn Marketing,Eyereturn Marketing,Ad Serving,Advertising,eyereturn_marketing,eyereturn_marketing,0,0,0,0,0,keyword_vendor_product
+Smart AdServer,Smart AdServer,Ad Serving,Advertising,smart_adserver,smart_adserver,0,0,0,0,0,keyword_vendor_product
+MicroAd,MicroAd,Ad Serving,Advertising,microad,microad,0,0,0,0,0,keyword_vendor_product
