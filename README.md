@@ -1,23 +1,22 @@
-# This repo shows how we mapped all the products from spice work database to the products present in SpiceWork database!
- 
-## we are did this using different methods:
-- Matching via CNA:  CNA = Vendor and Product in text, it total there are 400 CNA versus 10k technologies
-- Matching via CPE: 
-- Normilized matching via CPE: 
+# Mapping Products from the Spiceworks Database
 
-## How CPE does work:
-```cpe:2.3:{part}:{vendor}:{product}:{version}:{update}:{edition}:{language}:{sw_edition}:{target_sw}:{target_hw}:{other}```
+This repository documents how we mapped products from the Spiceworks database to the products identified in the Spiceworks dataset.
 
-In our analysis we are doing this:
-```cpe:2.3:a:{vendor}:{product}:*:*:*:*:*:*:*```
+## Mapping Methods
 
+We performed the mapping using several different approaches:
 
+- **Matching via CNA**  
+  In this method, the **CNA** is used as the vendor and product reference in text form.  
+  Overall, this includes approximately **400 CNAs** compared against around **10,000 technologies**.
 
-## Sources
-[1] - CPEs explanation: https://www.secopsolution.com/blog/cve-vs-cpe
+- **Matching via CPE**
 
+- **Normalized Matching via CPE**
 
+## How CPE Works
 
+A CPE follows this structure:
 
-
-
+```text
+cpe:2.3:{part}:{vendor}:{product}:{version}:{update}:{edition}:{language}:{sw_edition}:{target_sw}:{target_hw}:{other}
