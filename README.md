@@ -18,5 +18,11 @@ We performed the mapping using several different approaches:
 
 A CPE follows this structure:
 
-```text
-cpe:2.3:{part}:{vendor}:{product}:{version}:{update}:{edition}:{language}:{sw_edition}:{target_sw}:{target_hw}:{other}
+```cpe:2.3:{part}:{vendor}:{product}:{version}:{update}:{edition}:{language}:{sw_edition}:{target_sw}:{target_hw}:{other}```
+
+In our analysis, we use the following simplified format with VENDOR AND PRODUCT:
+
+```cpe:2.3:a:{vendor}:{product}:*:*:*:*:*:*:*:*```
+
+## Sources
+[1] CPE explanation: https://www.secopsolution.com/blog/cve-vs-cpe
