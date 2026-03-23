@@ -1,0 +1,1 @@
+# swdb_product_to_cve_mapping
